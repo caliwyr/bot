@@ -1426,13 +1426,13 @@ email = ["email-validator (>=1.0.3)"]
 
 [[package]]
 name = "pydis-core"
-version = "9.8.0"
+version = "9.9.1"
 description = "PyDis core provides core functionality and utility to the bots of the Python Discord community."
 optional = false
 python-versions = ">=3.10.dev0,<3.12.dev0"
 files = [
-    {file = "pydis_core-9.8.0-py3-none-any.whl", hash = "sha256:fddc3b863fcf542ee62c8cefc9fb5498b23b10a36655221ade48268c0dd37507"},
-    {file = "pydis_core-9.8.0.tar.gz", hash = "sha256:63806fcfa09abfaf83775dba4adbc6a2b1182f6bc2336def2f16bb2b884fd35c"},
+    {file = "pydis_core-9.9.1-py3-none-any.whl", hash = "sha256:456c81b226c4b49611139c5502dc69f04ca5ba46088d17d9f75176e989f77ebc"},
+    {file = "pydis_core-9.9.1.tar.gz", hash = "sha256:80b97eae4397e46eea90e88eccdec993a6c1859668150d32af08e80e15cefb2c"},
 ]
 
 [package.dependencies]
@@ -1457,13 +1457,13 @@ files = [
 
 [[package]]
 name = "pytest"
-version = "7.3.2"
+version = "7.4.0"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pytest-7.3.2-py3-none-any.whl", hash = "sha256:cdcbd012c9312258922f8cd3f1b62a6580fdced17db6014896053d47cddf9295"},
-    {file = "pytest-7.3.2.tar.gz", hash = "sha256:ee990a3cc55ba808b80795a79944756f315c67c12b56abd3ac993a7b8c17030b"},
+    {file = "pytest-7.4.0-py3-none-any.whl", hash = "sha256:78bf16451a2eb8c7a2ea98e32dc119fd2aa758f1d5d66dbf0a59d69a3969df32"},
+    {file = "pytest-7.4.0.tar.gz", hash = "sha256:b4bf8c45bd59934ed84001ad51e11b4ee40d40a1229d2c79f9c592b0a3f6bd8a"},
 ]
 
 [package.dependencies]
@@ -2221,4 +2221,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "731ade15ecf533075d07f05e0c279ad90034990fa0216595f90141f5367bca4c"
+content-hash = "36e21a1c9cc502e42203f34349fef1a40ae051eac244cf7946749a05d309eac2"
