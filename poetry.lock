@@ -1908,13 +1908,13 @@ files = [
 
 [[package]]
 name = "sentry-sdk"
-version = "1.28.1"
+version = "1.29.1"
 description = "Python client for Sentry (https://sentry.io)"
 optional = false
 python-versions = "*"
 files = [
-    {file = "sentry-sdk-1.28.1.tar.gz", hash = "sha256:dcd88c68aa64dae715311b5ede6502fd684f70d00a7cd4858118f0ba3153a3ae"},
-    {file = "sentry_sdk-1.28.1-py2.py3-none-any.whl", hash = "sha256:6bdb25bd9092478d3a817cb0d01fa99e296aea34d404eac3ca0037faa5c2aa0a"},
+    {file = "sentry-sdk-1.29.1.tar.gz", hash = "sha256:bbbad14afb72badeedc1077c424da010b2f238ec776624e18b57f7585b47097c"},
+    {file = "sentry_sdk-1.29.1-py2.py3-none-any.whl", hash = "sha256:31504e01a940f36629927a6e10110d2c6b7f0ecda56b9c2ff62a151ef4527f99"},
 ]
 
 [package.dependencies]
@@ -2031,13 +2031,13 @@ files = [
 
 [[package]]
 name = "taskipy"
-version = "1.11.0"
+version = "1.12.0"
 description = "tasks runner for python projects"
 optional = false
 python-versions = ">=3.6,<4.0"
 files = [
-    {file = "taskipy-1.11.0-py3-none-any.whl", hash = "sha256:4e40cd41747a54bc8a9b3c21057c25cac645309c2d8ac897bdc1e7235e9c900e"},
-    {file = "taskipy-1.11.0.tar.gz", hash = "sha256:521e8b3b65dc1ff9bb036cae989dbe5aec1626a61cf4744e5c0d0d2450c7fcb4"},
+    {file = "taskipy-1.12.0-py3-none-any.whl", hash = "sha256:38306fbc952a7ca314b8f842a74b2fc38535cdab21031fe89e714a83e6259a84"},
+    {file = "taskipy-1.12.0.tar.gz", hash = "sha256:e3dd7c53f7c9c4fd17dc908b1037f545afc452907eb0953b84e91c0a9a9d809d"},
 ]
 
 [package.dependencies]
@@ -2223,4 +2223,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "01b6ece18dec30b37cef5449ac10f5617934b9ce24e8ed1c46596b560783303f"
+content-hash = "afe40ff3a79a14ac72838f7b37b4332967cdf17921e7b2cc5a6e1bc82150c623"
