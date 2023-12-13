@@ -618,13 +618,13 @@ lua = ["lupa (>=1.14,<3.0)"]
 
 [[package]]
 name = "feedparser"
-version = "6.0.10"
+version = "6.0.11"
 description = "Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "feedparser-6.0.10-py3-none-any.whl", hash = "sha256:79c257d526d13b944e965f6095700587f27388e50ea16fd245babe4dfae7024f"},
-    {file = "feedparser-6.0.10.tar.gz", hash = "sha256:27da485f4637ce7163cdeab13a80312b93b7d0c1b775bef4a47629a3110bca51"},
+    {file = "feedparser-6.0.11-py3-none-any.whl", hash = "sha256:0be7ee7b395572b19ebeb1d6aafb0028dee11169f1c934e0ed67d54992f4ad45"},
+    {file = "feedparser-6.0.11.tar.gz", hash = "sha256:c9d0407b64c6f2a065d0ebb292c2b35c01050cc0dc33757461aaabdc4c4184d5"},
 ]
 
 [package.dependencies]
@@ -1227,13 +1227,13 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pre-commit"
-version = "3.5.0"
+version = "3.6.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "pre_commit-3.5.0-py2.py3-none-any.whl", hash = "sha256:841dc9aef25daba9a0238cd27984041fa0467b4199fc4852e27950664919f660"},
-    {file = "pre_commit-3.5.0.tar.gz", hash = "sha256:5804465c675b659b0862f07907f96295d490822a450c4c40e747d0b1c6ebcb32"},
+    {file = "pre_commit-3.6.0-py2.py3-none-any.whl", hash = "sha256:c255039ef399049a5544b6ce13d135caba8f2c28c3b4033277a788f434308376"},
+    {file = "pre_commit-3.6.0.tar.gz", hash = "sha256:d30bad9abf165f7785c15a21a1f46da7d0677cb00ee7ff4c579fd38922efe15d"},
 ]
 
 [package.dependencies]
@@ -1518,21 +1518,21 @@ python-dotenv = ">=0.21.0"
 
 [[package]]
 name = "pydis-core"
-version = "10.4.0"
+version = "10.5.0"
 description = "PyDis core provides core functionality and utility to the bots of the Python Discord community."
 optional = false
 python-versions = ">=3.10.dev0,<3.12.dev0"
 files = [
-    {file = "pydis_core-10.4.0-py3-none-any.whl", hash = "sha256:caffb572aac37196f52262a58fc926b6f7db50012268ceab38f86b3e16b44db0"},
-    {file = "pydis_core-10.4.0.tar.gz", hash = "sha256:06cdaf71079ceaf31e80406a7ced32f089b57c292b79aafdb418118d739d1a80"},
+    {file = "pydis_core-10.5.0-py3-none-any.whl", hash = "sha256:e80bb1df8b49d13f468c8b49bee5ed4aa2f1c8b9bf21fbb3b2274b2dd4fa5ffb"},
+    {file = "pydis_core-10.5.0.tar.gz", hash = "sha256:40225b970cd0d6d854970e56620af2ea1f83828b6aa2f09b405f870a65621f20"},
 ]
 
 [package.dependencies]
-aiodns = "3.1.1"
+aiodns = ">=3.1,<4.0"
 async-rediscache = {version = "1.0.0rc2", extras = ["fakeredis"], optional = true, markers = "extra == \"async-rediscache\""}
-"discord.py" = "2.3.2"
+"discord.py" = ">=2.3.2,<2.4.0"
 pydantic = ">=1.7.4,<3.0.0"
-statsd = "4.0.1"
+statsd = ">=4.0,<5.0"
 
 [package.extras]
 async-rediscache = ["async-rediscache[fakeredis] (==1.0.0rc2)"]
@@ -2354,4 +2354,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "4219966ec3825bf2978b6d00650d38a26320d90ba3976a35e44de3e50e271510"
+content-hash = "de04fcddc30127ff7150812cc1981af534d057cdf6fd2dfe7f21be9facf44759"
